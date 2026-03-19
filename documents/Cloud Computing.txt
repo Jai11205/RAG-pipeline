@@ -1,0 +1,22 @@
+﻿Cloud Computing
+Cloud computing is a technology model that delivers computing services—such as servers, storage, databases, networking, software, and analytics—over the internet (“the cloud”). It enables organizations and individuals to access scalable resources on demand without owning or maintaining physical infrastructure.
+Key facts
+* Service models: Infrastructure (IaaS), Platform (PaaS), Software (SaaS)
+* Deployment types: Public, private, hybrid, multi-cloud
+* Major providers: Amazon Web Services, Microsoft Azure, Google Cloud Platform
+* Core benefit: Elastic scalability and cost efficiency
+* Enabling technologies: Virtualization, containerization, and high-speed networking
+Origins and evolution
+The concept emerged from distributed computing and virtualization advances in the late 1990s and early 2000s. Early examples include hosted applications and utility computing. Mainstream adoption accelerated after 2006 with the launch of commercial cloud infrastructure, allowing users to rent computing power and storage on demand.
+Service models
+Cloud computing services are categorized into three primary layers:
+* IaaS: Provides virtualized infrastructure such as compute instances and storage volumes.
+* PaaS: Offers platforms for application development and deployment without managing servers.
+* SaaS: Delivers fully managed software applications accessible via a web browser.
+Deployment approaches
+Organizations can deploy cloud solutions through:
+* Public cloud: Shared infrastructure operated by a third-party provider.
+* Private cloud: Dedicated environment for one organization.
+* Hybrid or multi-cloud: Combines multiple environments for flexibility and redundancy.
+Business and societal impact
+Cloud computing underpins modern digital services, from streaming media and social networks to enterprise analytics and artificial intelligence. It lowers entry barriers for startups, enables global scalability, and supports remote collaboration. As adoption expands, security, compliance, and sustainability remain central considerations.

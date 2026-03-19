@@ -1,0 +1,15 @@
+﻿Artificial Intelligence
+Artificial intelligence (AI) is the multidisciplinary field devoted to creating systems that simulate aspects of human intelligence, such as learning, reasoning, perception, and decision-making. It integrates computer science, mathematics, logic, and cognitive science to design machines capable of intelligent behavior across diverse domains from language understanding to autonomous control. (TechTarget)
+Key Facts
+* Origin of term: Coined by John McCarthy at the 1956 Dartmouth Conference
+* Core branches: Machine learning, deep learning, robotics, natural language processing
+* Common types: Narrow AI, General AI (theoretical), and Superintelligent AI (hypothetical)
+* Primary uses: Automation, data analysis, image and speech recognition, generative content creation
+Foundations and Mechanisms
+AI systems rely on algorithms that process large volumes of data to detect patterns, make predictions, and refine performance. Foundational techniques include machine learning, where systems improve through experience, and deep learning, which employs layered neural networks modeled on brain structures. Supporting technologies—such as natural language processing, computer vision, and reinforcement learning—enable AI to interpret language, recognize objects, and adapt through feedback. (Amazon Web Services, Inc.)
+Historical Development
+The field evolved through distinct phases: early symbolic AI in the mid-20th century, expert systems in the 1970s–80s, data-driven machine learning in the 1990s, and modern deep learning breakthroughs after 2012 that fueled advances in speech recognition, recommendation engines, and generative models. Key milestones include the Deep Blue victory over Garry Kasparov (1997), DeepMind’s AlphaGo success (2016), and the release of large language and diffusion models enabling tools such as ChatGPT and DALL·E. (TechTarget)
+Applications and Impact
+AI permeates sectors including healthcare, finance, education, manufacturing, and transportation. It supports medical diagnostics, fraud detection, predictive maintenance, and autonomous vehicles. Generative AI extends these capabilities to creative tasks such as writing, design, and software development. Its influence is reshaping productivity and business models worldwide, while prompting regulatory and ethical frameworks to manage bias, transparency, and accountability. (Techopedia)
+Ethical and Societal Challenges
+As AI systems become integral to decision-making, concerns have grown around algorithmic bias, data privacy, intellectual-property rights, and job displacement. Initiatives like the EU AI Act and the U.S. AI Bill of Rights aim to ensure responsible development emphasizing fairness, safety, and explainability. Scholars advocate “responsible AI” principles that balance innovation with social trust and human oversight. (TechTarget)

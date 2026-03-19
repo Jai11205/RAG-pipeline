@@ -1,0 +1,16 @@
+﻿Artificial Neural Network
+An artificial neural network (ANN) is a computational model inspired by the structure and functioning of biological neural networks. It forms the foundation of many modern machine learning and artificial intelligence systems, enabling machines to recognize patterns, make predictions, and learn from data.
+Key facts
+* Core idea: Model interconnected “neurons” to process information
+* Learning method: Data-driven weight adjustment via training
+* Common architectures: Feedforward, convolutional, recurrent
+* Key algorithm: Backpropagation (error correction mechanism)
+* Applications: Image recognition, language processing, forecasting
+Structure and Function
+An ANN consists of layers of nodes (neurons) connected by weighted edges. Each neuron computes a weighted sum of inputs, applies an activation function, and passes the output forward. Layers include an input layer, one or more hidden layers, and an output layer. The overall structure enables complex, non-linear transformations of input data.
+Training and Learning Process
+Training adjusts connection weights to minimize output error, typically through backpropagation combined with gradient descent optimization. The network iteratively updates weights based on data examples, improving its ability to generalize to unseen inputs. Techniques such as regularization and dropout prevent overfitting during training.
+Types and Architectures
+Common ANN types include feedforward networks for static input-output mapping, convolutional neural networks (CNNs) for spatial data like images, and recurrent neural networks (RNNs) for sequential data such as text or speech. Hybrid models and transformers extend these ideas for large-scale tasks.
+Applications and Impact
+Artificial neural networks underpin technologies in computer vision, speech recognition, natural language processing, medical diagnostics, and financial forecasting. They enable systems like virtual assistants, autonomous vehicles, and generative AI models, representing a core paradigm in contemporary artificial intelligence research and industry.
