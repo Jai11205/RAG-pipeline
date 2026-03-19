@@ -1,0 +1,27 @@
+Ethical Hacking: Concepts and Methodologies
+1. Definition
+Ethical hacking (or penetration testing) involves an authorized attempt to gain unauthorized access to a computer system, application, or data. Unlike malicious hacking, ethical hacking relies on the consent of the owner to identify vulnerabilities so they can be fixed before a real attack occurs.
+
+2. The "Hacker" Classifications
+White Hat: Ethical hackers who use their skills for legal and defensive purposes.
+Black Hat: Malicious hackers who violate computer security for personal gain or out of malice.
+Grey Hat: Hackers who may bypass laws to find vulnerabilities but generally do not have malicious intent; they often report the flaw without prior permission.
+
+3. Core Principles
+Stay Legal: Obtain explicit permission before performing any security assessment.
+Define Scope: Determine the boundaries of the test so that the ethical hacker stays within legal and professional limits.
+Report Vulnerabilities: Provide a detailed report of all discovered flaws and suggest remediation steps.
+Respect Data Sensitivity: Maintain strict confidentiality regarding any sensitive data encountered during the process.
+
+4. Phases of Ethical Hacking
+Reconnaissance: Gathering information about the target (IP addresses, domain details, employee info).
+Scanning: Using tools like Nmap to identify open ports and services running on the target.
+Gaining Access: Exploiting identified vulnerabilities to enter the system.
+Maintaining Access: Determining if the system can be used as a "pivot" point for permanent or deeper access.
+Clearing Tracks: In a real attack, this hides the intruder; in ethical hacking, it ensures the test leaves the system in its original state.
+
+5. Common Tools
+Metasploit: Framework for developing and executing exploit code.
+Wireshark: Network protocol analyzer for capturing and inspecting traffic.
+Burp Suite: A leading platform for web application security testing.
+Nmap: A powerful network discovery and security auditing tool.
