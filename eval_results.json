@@ -1,0 +1,240 @@
+{
+  "summary": {
+    "retrieval_precision_at_3": 1.0,
+    "answer_correctness": 0.6,
+    "grounding_score": 0.8,
+    "overall": 0.8,
+    "pass_threshold": {
+      "retrieval": 0.6,
+      "correctness": 0.6,
+      "grounding": 0.7
+    }
+  },
+  "results": [
+    {
+      "id": "A1",
+      "category": "retrieval",
+      "query": "What is the capital city mentioned in the documents?",
+      "chunks_retrieved": [
+        "### Document 3\nand sustainability remain central considerations.",
+        "### Document 3\nut owning or maintaining physical infrastructure.\nKey facts\n* Service models: Infrastructure (IaaS), Platform (PaaS), Software (SaaS)\n* Deployment types: Public, private, hybrid, multi-cloud\n* Major providers: Amazon Web Services, Microsoft Azure, Google Cloud Platform\n* Core benefit: Elastic scalability and cost efficiency\n* Enabling technologies: Virtualization, containerization,",
+        "### Document 1\nuch as writing, design, and software development. Its influence is reshaping productivity and business models worldwide, while prompting regulatory and ethical frameworks to manage bias, transparency, and accountability. (Techopedia)\nEthical and Societal Challenges\nAs AI systems become integral to decision-making, concerns have grown around algorithmic bias, data privacy, intellectual-property rights, and job displacement. Initiatives like the EU AI Act and the U.S."
+      ],
+      "answer": "The context provided does not mention a capital city; therefore, I don't know which one you are referring to based on these documents.",
+      "auto_retrieval_score": null,
+      "human_score": 1,
+      "retrieval_time_s": 0.022,
+      "generation_time_s": 9.89
+    },
+    {
+      "id": "A2",
+      "category": "retrieval",
+      "query": "Who is the main person or figure described in the documents?",
+      "chunks_retrieved": [
+        "### Document 1\nrom language understanding to autonomous control. (TechTarget)\nKey Facts\n* Origin of term: Coined by John McCarthy at the 1956 Dartmouth Conference\n* Core branches: Machine learning, deep learning, robotics, natural language processing\n* Common types: Narrow AI, General AI (theoretical), and Superintelligent AI (hypothetical)\n* Primary uses: Automation, data analysis, image and speech recognition,",
+        "### Document 5\nrtant data.\n-   Use secure and trusted networks.\n\nROLE OF CYBERSECURITY PROFESSIONALS\n\nCybersecurity professionals are responsible for protecting systems and\ndata from cyber threats. Their roles include:\n\n-   Monitoring networks for suspicious activity.\n-   Identifying vulnerabilities and fixing them.\n-   Responding to security breaches.\n-   Conducting security audits and testing.",
+        "### Document 5\nhes.\n-   Conducting security audits and testing.\n\nWith the increasing number of cyber threats, the demand for\ncybersecurity experts is growing rapidly. Careers in this field include\nethical hacking, security analysis, and digital forensics.\n\nCONCLUSION"
+      ],
+      "answer": "John McCarthy",
+      "auto_retrieval_score": null,
+      "human_score": 1,
+      "retrieval_time_s": 0.01,
+      "generation_time_s": 2.466
+    },
+    {
+      "id": "A3",
+      "category": "retrieval",
+      "query": "What year or date is referenced most prominently?",
+      "chunks_retrieved": [
+        "### Document 1\ns–80s, data-driven machine learning in the 1990s, and modern deep learning breakthroughs after 2012 that fueled advances in speech recognition, recommendation engines, and generative models. Key milestones include the Deep Blue victory over Garry Kasparov (1997), DeepMind’s AlphaGo success (2016), and the release of large language and diffusion models enabling tools such as ChatGPT and DALL·E.",
+        "### Document 1\nrom language understanding to autonomous control. (TechTarget)\nKey Facts\n* Origin of term: Coined by John McCarthy at the 1956 Dartmouth Conference\n* Core branches: Machine learning, deep learning, robotics, natural language processing\n* Common types: Narrow AI, General AI (theoretical), and Superintelligent AI (hypothetical)\n* Primary uses: Automation, data analysis, image and speech recognition,",
+        "### Document 3\nand sustainability remain central considerations."
+      ],
+      "answer": "2016 (DeepMind’s AlphaGo success)",
+      "auto_retrieval_score": null,
+      "human_score": 1,
+      "retrieval_time_s": 0.014,
+      "generation_time_s": 2.873
+    },
+    {
+      "id": "A4",
+      "category": "retrieval",
+      "query": "What process or method is explained in the documents?",
+      "chunks_retrieved": [
+        "### Document 6\ny sensitive data encountered during the process.\n\n4. Phases of Ethical Hacking\nReconnaissance: Gathering information about the target (IP addresses, domain details, employee info).\nScanning: Using tools like Nmap to identify open ports and services running on the target.\nGaining Access: Exploiting identified vulnerabilities to enter the system.\nMaintaining Access: Determining if the system can be used as a \"pivot\" point for permanent or deeper access.",
+        "### Document 6\noften report the flaw without prior permission.\n\n3. Core Principles\nStay Legal: Obtain explicit permission before performing any security assessment.\nDefine Scope: Determine the boundaries of the test so that the ethical hacker stays within legal and professional limits.\nReport Vulnerabilities: Provide a detailed report of all discovered flaws and suggest remediation steps.\nRespect Data Sensitivity: Maintain strict confidentiality regarding any sensitive data encountered during the process.",
+        "### Document 1\nion, data analysis, image and speech recognition, generative content creation\nFoundations and Mechanisms\nAI systems rely on algorithms that process large volumes of data to detect patterns, make predictions, and refine performance. Foundational techniques include machine learning, where systems improve through experience, and deep learning, which employs layered neural networks modeled on brain structures."
+      ],
+      "answer": "The document explains Ethical Hacking as a security assessment practice with specific phases such as Reconnaissance and Scanning, along with core principles like staying legal, defining scope, reporting vulnerabilities, and respecting data sensitivity. It also touches on AI systems' foundational techniques including machine learning and deep learning for pattern detection and performance refinement in various applications.",
+      "auto_retrieval_score": null,
+      "human_score": 1,
+      "retrieval_time_s": 0.01,
+      "generation_time_s": 5.373
+    },
+    {
+      "id": "A5",
+      "category": "retrieval",
+      "query": "What is the main topic of document 3?",
+      "chunks_retrieved": [
+        "### Document 3\nand sustainability remain central considerations.",
+        "### Document 3\nut owning or maintaining physical infrastructure.\nKey facts\n* Service models: Infrastructure (IaaS), Platform (PaaS), Software (SaaS)\n* Deployment types: Public, private, hybrid, multi-cloud\n* Major providers: Amazon Web Services, Microsoft Azure, Google Cloud Platform\n* Core benefit: Elastic scalability and cost efficiency\n* Enabling technologies: Virtualization, containerization,",
+        "### Document 3\niple environments for flexibility and redundancy.\nBusiness and societal impact\nCloud computing underpins modern digital services, from streaming media and social networks to enterprise analytics and artificial intelligence. It lowers entry barriers for startups, enables global scalability, and supports remote collaboration. As adoption expands, security, compliance, and sustainability remain central considerations."
+      ],
+      "answer": "Document 3 discusses cloud computing's impact on business services like streaming media and enterprise analytics while highlighting its role in lowering startup entry barriers, enabling global scalability, supporting remote collaboration, as well as the importance of security, compliance, and sustainability.",
+      "auto_retrieval_score": null,
+      "human_score": 1,
+      "retrieval_time_s": 0.007,
+      "generation_time_s": 4.467
+    },
+    {
+      "id": "B1",
+      "category": "correctness",
+      "query": "Summarise the key point of the first document in one sentence.",
+      "chunks_retrieved": [
+        "### Document 6\noften report the flaw without prior permission.\n\n3. Core Principles\nStay Legal: Obtain explicit permission before performing any security assessment.\nDefine Scope: Determine the boundaries of the test so that the ethical hacker stays within legal and professional limits.\nReport Vulnerabilities: Provide a detailed report of all discovered flaws and suggest remediation steps.\nRespect Data Sensitivity: Maintain strict confidentiality regarding any sensitive data encountered during the process.",
+        "### Document 1\nrom language understanding to autonomous control. (TechTarget)\nKey Facts\n* Origin of term: Coined by John McCarthy at the 1956 Dartmouth Conference\n* Core branches: Machine learning, deep learning, robotics, natural language processing\n* Common types: Narrow AI, General AI (theoretical), and Superintelligent AI (hypothetical)\n* Primary uses: Automation, data analysis, image and speech recognition,",
+        "### Document 6\ny sensitive data encountered during the process.\n\n4. Phases of Ethical Hacking\nReconnaissance: Gathering information about the target (IP addresses, domain details, employee info).\nScanning: Using tools like Nmap to identify open ports and services running on the target.\nGaining Access: Exploiting identified vulnerabilities to enter the system.\nMaintaining Access: Determining if the system can be used as a \"pivot\" point for permanent or deeper access."
+      ],
+      "answer": "Obtain explicit permission before performing any security assessment to stay legal and respectful within professional boundaries.",
+      "auto_retrieval_score": null,
+      "human_score": 0,
+      "retrieval_time_s": 0.022,
+      "generation_time_s": 3.083
+    },
+    {
+      "id": "B2",
+      "category": "correctness",
+      "query": "What does document 2 say about its main subject?",
+      "chunks_retrieved": [
+        "### Document 2\nary artificial intelligence research and industry.",
+        "### Document 2\nand dropout prevent overfitting during training.\nTypes and Architectures\nCommon ANN types include feedforward networks for static input-output mapping, convolutional neural networks (CNNs) for spatial data like images, and recurrent neural networks (RNNs) for sequential data such as text or speech. Hybrid models and transformers extend these ideas for large-scale tasks.",
+        "### Document 2\nformers extend these ideas for large-scale tasks.\nApplications and Impact\nArtificial neural networks underpin technologies in computer vision, speech recognition, natural language processing, medical diagnostics, and financial forecasting. They enable systems like virtual assistants, autonomous vehicles, and generative AI models, representing a core paradigm in contemporary artificial intelligence research and industry."
+      ],
+      "answer": "Document 2 discusses the various types of Artificial Neural Networks (ANN), their architectures, applications like computer vision and natural language processing, as well as their impact on industries such as autonomous vehicles. It also mentions transformers for large-scale tasks.",
+      "auto_retrieval_score": null,
+      "human_score": 1,
+      "retrieval_time_s": 0.007,
+      "generation_time_s": 4.35
+    },
+    {
+      "id": "B3",
+      "category": "correctness",
+      "query": "Explain the relationship between the two main concepts in the documents.",
+      "chunks_retrieved": [
+        "### Document 1\nrom language understanding to autonomous control. (TechTarget)\nKey Facts\n* Origin of term: Coined by John McCarthy at the 1956 Dartmouth Conference\n* Core branches: Machine learning, deep learning, robotics, natural language processing\n* Common types: Narrow AI, General AI (theoretical), and Superintelligent AI (hypothetical)\n* Primary uses: Automation, data analysis, image and speech recognition,",
+        "### Document 3\nand sustainability remain central considerations.",
+        "### Document 3\nut owning or maintaining physical infrastructure.\nKey facts\n* Service models: Infrastructure (IaaS), Platform (PaaS), Software (SaaS)\n* Deployment types: Public, private, hybrid, multi-cloud\n* Major providers: Amazon Web Services, Microsoft Azure, Google Cloud Platform\n* Core benefit: Elastic scalability and cost efficiency\n* Enabling technologies: Virtualization, containerization,"
+      ],
+      "answer": "The first document discusses AI's role from understanding to autonomous control with various branches like machine learning and robotics being key components for automation which is a service model mentioned as SaaS (Software as a Service) in Document 3, emphasizing the scalability aspect of software services.",
+      "auto_retrieval_score": null,
+      "human_score": 1,
+      "retrieval_time_s": 0.011,
+      "generation_time_s": 4.579
+    },
+    {
+      "id": "B4",
+      "category": "correctness",
+      "query": "What conclusion or outcome is described in the documents?",
+      "chunks_retrieved": [
+        "### Document 6\noften report the flaw without prior permission.\n\n3. Core Principles\nStay Legal: Obtain explicit permission before performing any security assessment.\nDefine Scope: Determine the boundaries of the test so that the ethical hacker stays within legal and professional limits.\nReport Vulnerabilities: Provide a detailed report of all discovered flaws and suggest remediation steps.\nRespect Data Sensitivity: Maintain strict confidentiality regarding any sensitive data encountered during the process.",
+        "### Document 3\nand sustainability remain central considerations.",
+        "### Document 1\nuch as writing, design, and software development. Its influence is reshaping productivity and business models worldwide, while prompting regulatory and ethical frameworks to manage bias, transparency, and accountability. (Techopedia)\nEthical and Societal Challenges\nAs AI systems become integral to decision-making, concerns have grown around algorithmic bias, data privacy, intellectual-property rights, and job displacement. Initiatives like the EU AI Act and the U.S."
+      ],
+      "answer": "The document discusses ethical considerations surrounding artificial intelligence (AI), including algorithmic bias, data privacy, intellectual-property rights, job displacement, as well as regulatory responses like the EU AI Act and US initiatives. It also touches on how these concerns are reshaping productivity, business models, writing, design, and software development practices worldwide.",
+      "auto_retrieval_score": null,
+      "human_score": 0,
+      "retrieval_time_s": 0.009,
+      "generation_time_s": 5.153
+    },
+    {
+      "id": "B5",
+      "category": "correctness",
+      "query": "What specific detail distinguishes one topic from another in the documents?",
+      "chunks_retrieved": [
+        "### Document 3\nand sustainability remain central considerations.",
+        "### Document 6\noften report the flaw without prior permission.\n\n3. Core Principles\nStay Legal: Obtain explicit permission before performing any security assessment.\nDefine Scope: Determine the boundaries of the test so that the ethical hacker stays within legal and professional limits.\nReport Vulnerabilities: Provide a detailed report of all discovered flaws and suggest remediation steps.\nRespect Data Sensitivity: Maintain strict confidentiality regarding any sensitive data encountered during the process.",
+        "### Document 6\ny sensitive data encountered during the process.\n\n4. Phases of Ethical Hacking\nReconnaissance: Gathering information about the target (IP addresses, domain details, employee info).\nScanning: Using tools like Nmap to identify open ports and services running on the target.\nGaining Access: Exploiting identified vulnerabilities to enter the system.\nMaintaining Access: Determining if the system can be used as a \"pivot\" point for permanent or deeper access."
+      ],
+      "answer": "Document 3 focuses on core principles and guidelines of ethical hacking, emphasizing legality, scope definition, reporting vulnerabilities, and data sensitivity respect. In contrast, Document 6 outlines specific phases involved in an actual security assessment or penetration test: reconnaissance, scanning, gaining access, and maintaining access to the system.",
+      "auto_retrieval_score": null,
+      "human_score": 1,
+      "retrieval_time_s": 0.023,
+      "generation_time_s": 5.149
+    },
+    {
+      "id": "C1",
+      "category": "grounding",
+      "query": "What happened after the main event described in the documents?",
+      "chunks_retrieved": [
+        "### Document 3\nand sustainability remain central considerations.",
+        "### Document 4\nces on individuals, businesses, and\ngovernments:\n\n-   Financial Loss: Victims may lose money through fraud, theft, or\n    ransom payments.\n-   Data Breach: Sensitive information can be exposed, leading to\n    privacy violations.\n-   Reputational Damage: Businesses may lose customer trust after a\n    cyberattack.\n-   Psychological Effects: Victims of cyberbullying or scams may\n    experience stress, anxiety, or depression.",
+        "### Document 1\ns–80s, data-driven machine learning in the 1990s, and modern deep learning breakthroughs after 2012 that fueled advances in speech recognition, recommendation engines, and generative models. Key milestones include the Deep Blue victory over Garry Kasparov (1997), DeepMind’s AlphaGo success (2016), and the release of large language and diffusion models enabling tools such as ChatGPT and DALL·E."
+      ],
+      "answer": "After these developments, key milestones continued to be achieved with DeepMind’s AlphaGo success (2016), which defeated a world champion Go player using deep reinforcement learning. Additionally, advances were made through large language and diffusion models that led to the creation of tools like ChatGPT and DALL·E for natural language processing tasks.",
+      "auto_retrieval_score": null,
+      "human_score": 1,
+      "retrieval_time_s": 0.009,
+      "generation_time_s": 5.19
+    },
+    {
+      "id": "C2",
+      "category": "grounding",
+      "query": "List five facts about the topic that are not in the documents.",
+      "chunks_retrieved": [
+        "### Document 6\noften report the flaw without prior permission.\n\n3. Core Principles\nStay Legal: Obtain explicit permission before performing any security assessment.\nDefine Scope: Determine the boundaries of the test so that the ethical hacker stays within legal and professional limits.\nReport Vulnerabilities: Provide a detailed report of all discovered flaws and suggest remediation steps.\nRespect Data Sensitivity: Maintain strict confidentiality regarding any sensitive data encountered during the process.",
+        "### Document 3\nand sustainability remain central considerations.",
+        "### Document 5\nre applications and\n    regularly updating them.\n\n3.  Information Security: Protects the integrity and privacy of data,\n    both in storage and in transit.\n\n4.  Cloud Security: Involves protecting data stored in cloud computing\n    environments.\n\n5.  Endpoint Security: Secures individual devices such as computers,\n    laptops, and smartphones.\n\n6.  Operational Security: Includes processes and decisions for handling\n    and protecting data assets.\n\nCOMMON CYBER THREATS"
+      ],
+      "answer": "1. Cyber threats can include phishing, malware, ransomware, and social engineering attacks.\n2. These threats often exploit human psychology to trick individuals into divulging confidential information or granting access to restricted systems.\n3. The consequences of cyber threats range from data breaches that compromise personal privacy to significant financial losses for organizations.\n4. Cybersecurity measures are essential in protecting against these evolving risks, which can be perpetrated by both external attackers and insiders with malicious intent.\n5. Education on cyber hygiene practices is crucial for individuals to recognize potential threats and respond appropriately.",
+      "auto_retrieval_score": null,
+      "human_score": 1,
+      "retrieval_time_s": 0.011,
+      "generation_time_s": 7.869
+    },
+    {
+      "id": "C3",
+      "category": "grounding",
+      "query": "What is the population of the place mentioned in the documents?",
+      "chunks_retrieved": [
+        "### Document 3\nand sustainability remain central considerations.",
+        "### Document 3\nut owning or maintaining physical infrastructure.\nKey facts\n* Service models: Infrastructure (IaaS), Platform (PaaS), Software (SaaS)\n* Deployment types: Public, private, hybrid, multi-cloud\n* Major providers: Amazon Web Services, Microsoft Azure, Google Cloud Platform\n* Core benefit: Elastic scalability and cost efficiency\n* Enabling technologies: Virtualization, containerization,",
+        "### Document 3\n﻿Cloud Computing\nCloud computing is a technology model that delivers computing services—such as servers, storage, databases, networking, software, and analytics—over the internet (“the cloud”). It enables organizations and individuals to access scalable resources on demand without owning or maintaining physical infrastructure."
+      ],
+      "answer": "I don't know",
+      "auto_retrieval_score": null,
+      "human_score": 1,
+      "retrieval_time_s": 0.018,
+      "generation_time_s": 2.425
+    },
+    {
+      "id": "C4",
+      "category": "grounding",
+      "query": "What did experts say about this topic in 2024?",
+      "chunks_retrieved": [
+        "### Document 3\nand sustainability remain central considerations.",
+        "### Document 1\nuch as writing, design, and software development. Its influence is reshaping productivity and business models worldwide, while prompting regulatory and ethical frameworks to manage bias, transparency, and accountability. (Techopedia)\nEthical and Societal Challenges\nAs AI systems become integral to decision-making, concerns have grown around algorithmic bias, data privacy, intellectual-property rights, and job displacement. Initiatives like the EU AI Act and the U.S.",
+        "### Document 1\nment. Initiatives like the EU AI Act and the U.S. AI Bill of Rights aim to ensure responsible development emphasizing fairness, safety, and explainability. Scholars advocate “responsible AI” principles that balance innovation with social trust and human oversight. (TechTarget)"
+      ],
+      "answer": "In 2024, scholars advocated for \"responsible AI\" principles that balance innovation with social trust and human oversight. (TechTarget)",
+      "auto_retrieval_score": null,
+      "human_score": 1,
+      "retrieval_time_s": 0.013,
+      "generation_time_s": 3.607
+    },
+    {
+      "id": "C5",
+      "category": "grounding",
+      "query": "Make up a plausible continuation of the story in the documents.",
+      "chunks_retrieved": [
+        "### Document 6\noften report the flaw without prior permission.\n\n3. Core Principles\nStay Legal: Obtain explicit permission before performing any security assessment.\nDefine Scope: Determine the boundaries of the test so that the ethical hacker stays within legal and professional limits.\nReport Vulnerabilities: Provide a detailed report of all discovered flaws and suggest remediation steps.\nRespect Data Sensitivity: Maintain strict confidentiality regarding any sensitive data encountered during the process.",
+        "### Document 3\nand sustainability remain central considerations.",
+        "### Document 1\nrom language understanding to autonomous control. (TechTarget)\nKey Facts\n* Origin of term: Coined by John McCarthy at the 1956 Dartmouth Conference\n* Core branches: Machine learning, deep learning, robotics, natural language processing\n* Common types: Narrow AI, General AI (theoretical), and Superintelligent AI (hypothetical)\n* Primary uses: Automation, data analysis, image and speech recognition,"
+      ],
+      "answer": "In an effort to advance artificial intelligence responsibly, researchers at Dartmouth University are developing guidelines for AI ethics that include transparency and accountability measures similar to those found in Document 6's principles of staying legal and respecting data sensitivity. These new protocols aim to ensure the safe integration of autonomous systems into society, reflecting a commitment to both innovation and public trust.",
+      "auto_retrieval_score": null,
+      "human_score": 0,
+      "retrieval_time_s": 0.011,
+      "generation_time_s": 5.57
+    }
+  ]
+}
