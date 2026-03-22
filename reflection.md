@@ -38,7 +38,7 @@
 - Despite clear instructions to stay within context and avoid using external reasoning, the LLM still produces creative or inferred responses.
 - It does not reliably refuse to answer out-of-context queries, as expected.
 - This leads to responses that may sound plausible but are not grounded in the provided data.
-## 🔧 What Would I Change First If I Had More Time?
+## What Would I Change First If I Had More Time?
 
 I would focus on improving the prompt design and enforcing stricter control over the LLM’s behavior.
 
