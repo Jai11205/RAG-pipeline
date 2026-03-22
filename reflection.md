@@ -17,7 +17,7 @@
 ### 4. Local LLM (Ollama/Phi-3)
 - **Function:** Generates a human-like response based *only* on the provided context.
 - **Importance:** Provides a private, secure way to interact with data while strictly preventing information "hallucinations" through specialized prompting.
-## ❌ Where Did the Pipeline Fail?
+## Where Did the Pipeline Fail?
 
 ### 1. Document Identification Issue
 - The pipeline performs correctly when the document is explicitly referenced in numeric form (e.g., *“document 3”*).
@@ -53,7 +53,7 @@ I would focus on improving the prompt design and enforcing stricter control over
 
 ### Goal:
 - To make the system more reliable, controlled, and strictly context-driven.
-## ⚠️ Limitation of Cosine Similarity as a Retrieval Method
+## Limitation of Cosine Similarity as a Retrieval Method
 
 Cosine similarity is effective for retrieving semantically similar content. However, it has limitations when handling queries that require references to a **specific document**.
 
